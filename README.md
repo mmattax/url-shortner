@@ -8,6 +8,14 @@ The [MVP project](https://github.com/mmattax/url-shortner/projects/1) defines th
 
 The milestones have issues and due dates assigned (assuming I'm starting in on April 27th), I'll have this in production on Cinco de Mayo :tropical_drink: :beers:
 
+## 
+Plan:
+
+- Prework Rocketbook [notes](https://drive.google.com/file/d/1KLTekmTIpVw_CwoDSznYy2NbTBNNVXzQ/view?usp=sharing)
+- [Milestones](https://github.com/mmattax/url-shortner/milestones?direction=asc&sort=due_date&state=open)
+- [Project board](https://github.com/mmattax/url-shortner/projects/1)
+
+
 ## Tech
 The backend will be a REST API, powered by [Echo](https://echo.labstack.com/), Postgres, and Memcache. 
 

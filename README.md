@@ -20,7 +20,7 @@ Plan:
 The backend will be a REST API, powered by [Echo](https://echo.labstack.com/), Postgres, and Memcache. 
 
 ## Infastructure
-I'll deploy this service on [ECS](https://aws.amazon.com/ecs/) running on [Fargate](https://aws.amazon.com/fargate/), [RDS](https://aws.amazon.com/rds/) will be used for the database. I'll have a background process (that consumes [SQS](https://aws.amazon.com/sqs/) messages) that writes analytic records to the `views` table. I'm a huge believe in infastructure-as-code and will use [Terraform](https://www.terraform.io/) to manage all of this.
+I'll deploy this service on [ECS](https://aws.amazon.com/ecs/) running on [Fargate](https://aws.amazon.com/fargate/), [RDS](https://aws.amazon.com/rds/) will be used for the database. I'll have a background process (that consumes [SQS](https://aws.amazon.com/sqs/) messages) that writes analytic records to the `views` table. I'm a huge believer in infastructure-as-code and will use [Terraform](https://www.terraform.io/) to manage all of this.
 
 ## Research links
 - http://stage.vambenepe.com/archives/1596 (Cookie, Status code, caching)
